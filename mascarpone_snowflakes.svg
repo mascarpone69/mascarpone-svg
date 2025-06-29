@@ -1,0 +1,113 @@
+<svg width="600" height="150" viewBox="0 0 600 150" xmlns="http://www.w3.org/2000/svg" style="background:#fff;">
+  <defs>
+    <!-- Анимированный яркий градиент -->
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff00cc">
+        <animate attributeName="stop-color" values="#ff00cc;#3333ff;#00ffff;#ff00cc" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#3333ff">
+        <animate attributeName="stop-color" values="#3333ff;#00ffff;#ff00cc;#3333ff" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <style>
+      text {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        user-select: none;
+      }
+    </style>
+  </defs>
+
+  <!-- Ник с анимированным градиентом -->
+  <text x="50%" y="50%" font-size="80" text-anchor="middle" dominant-baseline="middle" fill="url(#grad)">
+    MASCARPONE
+  </text>
+
+  <!-- Группа снежинок -->
+  <g>
+    <!-- Генерация 25 снежинок с разным смещением и скоростью -->
+    <text x="30" y="-15" font-size="16" fill="#555" opacity="0.7">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="10 180" dur="5s" repeatCount="indefinite" />
+    </text>
+    <text x="90" y="-10" font-size="14" fill="#666" opacity="0.5">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-10 170" dur="7s" repeatCount="indefinite" />
+    </text>
+    <text x="150" y="-12" font-size="18" fill="#444" opacity="0.8">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="15 190" dur="6.5s" repeatCount="indefinite" />
+    </text>
+    <text x="210" y="-20" font-size="12" fill="#777" opacity="0.6">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-15 200" dur="8s" repeatCount="indefinite" />
+    </text>
+    <text x="270" y="-18" font-size="14" fill="#555" opacity="0.7">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="12 175" dur="6s" repeatCount="indefinite" />
+    </text>
+    <text x="330" y="-22" font-size="16" fill="#666" opacity="0.6">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-8 180" dur="7.5s" repeatCount="indefinite" />
+    </text>
+    <text x="390" y="-14" font-size="12" fill="#444" opacity="0.5">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="20 190" dur="5.5s" repeatCount="indefinite" />
+    </text>
+    <text x="450" y="-10" font-size="18" fill="#555" opacity="0.8">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-10 185" dur="6.2s" repeatCount="indefinite" />
+    </text>
+    <text x="510" y="-16" font-size="14" fill="#666" opacity="0.7">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="14 200" dur="7s" repeatCount="indefinite" />
+    </text>
+    <text x="570" y="-20" font-size="12" fill="#777" opacity="0.5">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-12 175" dur="6.8s" repeatCount="indefinite" />
+    </text>
+
+    <!-- дополнительные снежинки для плотности -->
+    <text x="60" y="-25" font-size="14" fill="#555" opacity="0.6">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-5 180" dur="6.3s" repeatCount="indefinite" />
+    </text>
+    <text x="120" y="-18" font-size="16" fill="#666" opacity="0.7">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="10 170" dur="7.2s" repeatCount="indefinite" />
+    </text>
+    <text x="180" y="-22" font-size="12" fill="#777" opacity="0.5">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-14 185" dur="6.1s" repeatCount="indefinite" />
+    </text>
+    <text x="240" y="-15" font-size="14" fill="#444" opacity="0.8">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="16 190" dur="7.7s" repeatCount="indefinite" />
+    </text>
+    <text x="300" y="-10" font-size="16" fill="#555" opacity="0.6">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-12 200" dur="6.4s" repeatCount="indefinite" />
+    </text>
+    <text x="360" y="-18" font-size="12" fill="#666" opacity="0.7">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="11 180" dur="7.3s" repeatCount="indefinite" />
+    </text>
+    <text x="420" y="-20" font-size="14" fill="#777" opacity="0.5">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-10 175" dur="6.6s" repeatCount="indefinite" />
+    </text>
+    <text x="480" y="-15" font-size="16" fill="#444" opacity="0.8">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="12 185" dur="7.1s" repeatCount="indefinite" />
+    </text>
+    <text x="540" y="-22" font-size="12" fill="#555" opacity="0.6">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-15 190" dur="6.9s" repeatCount="indefinite" />
+    </text>
+    <text x="600" y="-12" font-size="14" fill="#666" opacity="0.7">
+      ❄
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="15 180" dur="7.5s" repeatCount="indefinite" />
+    </text>
+  </g>
+</svg>
